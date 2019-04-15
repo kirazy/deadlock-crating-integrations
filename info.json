@@ -1,0 +1,11 @@
+{
+  "name": "deadlock-crating-integrations",
+  "version": "0.0.2",
+  "title": "Deadlock's Crating Machine Integrations for Bob's mods",
+  "author": "Recon & Pawz",
+  "contact": "",
+  "homepage": "",
+  "dependencies": ["base >= 0.17", "deadlock-integrations", "DeadlockCrating"],
+  "description": "Adjusts the crating machine recipes to match Bob's Mods recipes, and adds higher tier crating machines. Requires Deadlock's Crating and Stacking for Bob's and Angel's mods.",
+  "factorio_version": "0.17"
+}
