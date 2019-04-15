@@ -1,0 +1,10 @@
+---------------------------------------------------------------------------------------------------
+Version 0.0.2
+  Changed:
+    - Changed method of creating the new tiers to better reflect changes in the base Crating Mods
+    - Updated code to gracefully handle situations where you aren't using Bob's Logistics but you want faster crating machines anyways
+    
+Version 0.0.1
+  Features: 
+    - Updates recipes to be better balanced with Bobs Mods
+    - Adds 2 new tiers to match Bob's logistics
