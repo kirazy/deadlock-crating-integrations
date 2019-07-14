@@ -1,10 +1,22 @@
 ---------------------------------------------------------------------------------------------------
-Version 0.0.2
+Version: 1.0.0
+    - Modernized code base to be more aligned with "DeadlockCrating"
+    - Fixed crashs with a recent update to "DeadlockCrating"
+    - Made "deadlock-integrations" optional
+    - Add optional support for "LoaderRedux" Loaders
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+    - Corrected tinting of the entity to correctly show the colour when placed
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+    - Corrected something so minor didn't even write it here
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
   Changed:
     - Changed method of creating the new tiers to better reflect changes in the base Crating Mods
     - Updated code to gracefully handle situations where you aren't using Bob's Logistics but you want faster crating machines anyways
-    
-Version 0.0.1
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
   Features: 
     - Updates recipes to be better balanced with Bobs Mods
     - Adds 2 new tiers to match Bob's logistics
