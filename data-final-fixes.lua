@@ -28,7 +28,7 @@ if mods["boblogistics"] and mods["LoaderRedux"] then
 else
     DCM.LOADER_ONE = "transport-belt-beltbox"
     DCM.LOADER_TWO = "fast-transport-belt-beltbox"
-    DCM.LOADER_THREE = "express-transport-beltbox"
+    DCM.LOADER_THREE = "express-transport-belt-beltbox"
     if data.raw.item["ultimate-transport-belt-beltbox"] then
         DCM.LOADER_FOUR = "express-transport-belt"
         DCM.LOADER_FIVE = "express-transport-belt"
