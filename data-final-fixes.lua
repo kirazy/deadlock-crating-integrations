@@ -144,8 +144,8 @@ end
 
 unit = table.deepcopy(data.raw.technology["inserter-capacity-bonus-6"].unit)
 unit.count = unit.count * 2
-DCM.create_crating_technology(4, nil, nil, unit)
+DCM.create_crating_technology(4, nil, {DCM.TECH_PREFIX .. 3}, unit)
 
 unit = table.deepcopy(data.raw.technology["inserter-capacity-bonus-7"].unit)
 unit.count = unit.count * 2
-DCM.create_crating_technology(5, nil, nil, unit)
+DCM.create_crating_technology(5, nil, {DCM.TECH_PREFIX .. 4}, unit)
