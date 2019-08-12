@@ -38,16 +38,27 @@ if mods["boblogistics"] and mods["LoaderRedux"] then
   DCM.LOADER_THREE = "express-loader"
   DCM.LOADER_FOUR = "purple-loader"
   DCM.LOADER_FIVE = "green-loader"
-else
+elseif mods["deadlock-integrations"] then
   DCM.LOADER_ONE = "transport-belt-beltbox"
   DCM.LOADER_TWO = "fast-transport-belt-beltbox"
   DCM.LOADER_THREE = "express-transport-belt-beltbox"
   if data.raw.item["ultimate-transport-belt-beltbox"] then
-    DCM.LOADER_FOUR = "express-transport-belt"
-    DCM.LOADER_FIVE = "express-transport-belt"
-  else
     DCM.LOADER_FOUR = "ultimate-transport-belt-beltbox"
     DCM.LOADER_FIVE = "turbo-transport-belt-beltbox"
+  else
+    DCM.LOADER_FOUR = "express-transport-belt"
+    DCM.LOADER_FIVE = "express-transport-belt"
+  end
+else
+  DCM.LOADER_ONE = "transport-belt"
+  DCM.LOADER_TWO = "fast-transport-belt"
+  DCM.LOADER_THREE = "express-transport-belt"
+  if data.raw.item["ultimate-transport-belt"] then
+    DCM.LOADER_FOUR = "ultimate-transport-belt"
+    DCM.LOADER_FIVE = "turbo-transport-belt"
+  else
+    DCM.LOADER_FOUR = "express-transport-belt"
+    DCM.LOADER_FIVE = "express-transport-belt"
   end
 end
 

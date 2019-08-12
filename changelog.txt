@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+  Fixed:
+    - Crash without "Bobs Logistics" and "Loader Redux" or "Deadlock Integrations
+    - Recipes related to Ultimate Transport Belts
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+  Fixed:
+    - Fix DCM.LOADER_THREE variable
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
   Changed:
     - Modernized code base againt to use more functions and reduce code duplicacy
