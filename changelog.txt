@@ -1,8 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+  Fixed:
+    - Fixed Crating Machine recipe
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+  Fixed:
+    - Fixed a crash when only vanilla items are available
+---------------------------------------------------------------------------------------------------
 Version: 1.1.2
   Fixed:
-    - Crash without "Bobs Logistics" and "Loader Redux" or "Deadlock Integrations
-    - Recipes related to Ultimate Transport Belts
+    - Fixed a crash without "Bobs Logistics" and "Loader Redux" or "Deadlock Integrations
+    - Fixed recipes related to Ultimate Transport Belts
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
   Fixed:

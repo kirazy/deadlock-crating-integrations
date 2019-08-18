@@ -97,7 +97,11 @@ DCM.create_machine_recipe(
 	}
 )
 
-data.raw.recipe[DCM.MACHINE_PREFIX .. "1"].ingredients = {{DCM.LOADER_ONE, 8}, {"steel-plate", 10}}
+data.raw.recipe[DCM.MACHINE_PREFIX .. "1"].ingredients = {
+	{DCM.LOADER_ONE, 8},
+	{"assembling-machine-1", 1},
+	{"steel-plate", 10}
+}
 
 data.raw.recipe[DCM.MACHINE_PREFIX .. "2"].ingredients = {
 	{DCM.MACHINE_PREFIX .. "1", 1},
