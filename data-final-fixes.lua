@@ -121,8 +121,8 @@ end
 
 if
 	settings.startup["bobmods-logistics-beltoverhaulspeed"] and
-		settings.startup["bobmods-logistics-beltoverhaulspeed"].value
- then
+	settings.startup["bobmods-logistics-beltoverhaulspeed"].value
+then
 	-- yellow
 	if data.raw["assembling-machine"][DCM.MACHINE_PREFIX .. "1"] then
 		data.raw["assembling-machine"][DCM.MACHINE_PREFIX .. "1"].crafting_speed = getCraftingSpeed(2)
